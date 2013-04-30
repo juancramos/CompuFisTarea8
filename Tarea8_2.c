@@ -29,7 +29,7 @@ int main(void){
     h = 10.0/n_points;
     delta_t = 1.5E-4;
     alfa = delta_t/(h*h);
-    contador = 1.9E3;
+    contador = 1.8E3;
     numDat = 0;
 
 
@@ -105,7 +105,7 @@ int main(void){
 
      fclose(Out);
 
-     contador = contador + 2.0E5;
+     contador = contador + 1.8E3;
      numDat = numDat + 1;
 
 

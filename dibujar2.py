@@ -16,7 +16,7 @@ for i in range(10):
     plot(x, y)
     xlabel('x')
     ylabel('function')
-    title(str(i)+'Plano_x,f')
-    savefig(str(i)+'Plano_x,f.pdf')
+    title(str(i)+'Plano_x,f_2')
+    savefig(str(i)+'Plano_x,f_2.pdf')
     close()
     
