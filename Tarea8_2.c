@@ -4,9 +4,9 @@
 #include <string.h>
 
 
-float funcion_u_inicial(float x);
+float funcion_u_inicial2(float x);
 
-int main(void){
+int tarea8_2(void){
 
   int n_points;
   int i;
@@ -70,7 +70,7 @@ int main(void){
 
 
   for(i=1; i<n_points-1; i++){
-    now[i]= funcion_u_inicial(x[i]);
+    now[i]= funcion_u_inicial2(x[i]);
  }
 
 
@@ -123,7 +123,7 @@ int main(void){
 }
 
 
-float funcion_u_inicial(float x){
+float funcion_u_inicial2(float x){
 
   return exp(-pow(x,2.0));
 

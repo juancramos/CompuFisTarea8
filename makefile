@@ -1,5 +1,5 @@
-a.out: tarea8.o 
-	@cc -lm tarea8.o, tarea8_2.o 
+a.out: tarea8.o tarea8_2.o
+	@cc -lm tarea8.o tarea8_2.o 
 	@./a.out
 	@python dibujar.py
 	@python dibujar2.py
@@ -8,7 +8,7 @@ a.out: tarea8.o
 main.o: tarea8.c
 	@cc -c tarea8.c
 
-main.o: tarea8_2.c
+tarea8_2.o: tarea8_2.c
 	@cc -c tarea8_2.c
 
 
